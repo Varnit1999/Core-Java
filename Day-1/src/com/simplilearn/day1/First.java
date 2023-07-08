@@ -2,9 +2,10 @@ package com.simplilearn.day1;
 
 public class First {
 
-	static int a;
+	int a=10;
 	public static void main(String[] args) {
-		System.out.println(a);
+		First obj =new First();
+		System.out.println(obj.a);
 	}
 
 }
